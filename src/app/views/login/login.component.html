@@ -1,0 +1,36 @@
+<main class="container">
+    <div class="container">
+        <div class="card card-login mx-auto text-center" style="width: 400px; background-color: #0e0e0e;">
+            <div class="card-header mx-auto" style="background-color: #0e0e0e;">
+                <span> <img
+                        src="https://png2.kisspng.com/sh/0a8845d99326a513e081d01cfcc42137/L0KzQYm3WMIxN5l7gJH0aYP2gLBuTfJ2cZ1pgdDwLXzyd7E0lvVkfJD3Rdl7YYDrebT6TfhwfaRqReR4b3awgL3ojv90NZV0ReV4ZoT6ccPsTgBwfJZze9tqbHn9cX68gsdjPpc9TKcEOHa0RnA3U8k6P2Q8S6MAM0S7QYe4U8I0PmcARuJ3Zx==/kisspng-building-logo-vector-graphics-house-roof-planos-do-software-potencializa-5b7b6f84598f16.0399737315348161323669.png"
+                        class="w-75" alt="Logo"> </span><br />
+            </div>
+            <div class="card-body">
+                <form action="" method="post">
+                    <div class="input-group form-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fas fa-user"></i></span>
+                        </div>
+                        <input type="text" name="email" class="form-control" placeholder="Usuário"
+                            [(ngModel)]="username">
+                    </div>
+
+                    <div class="input-group form-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fas fa-key"></i></span>
+                        </div>
+                        <input type="password" name="password" class="form-control" placeholder="Senha"
+                            [(ngModel)]="password">
+                    </div>
+
+                    <div class="form-group">
+                        <button type="button" name="btn" class="btn btn-outline-danger float-right login_btn"
+                            (click)="login()">Login</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+</main>
